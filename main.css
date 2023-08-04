@@ -15,15 +15,15 @@
 
 }
 
-.drop-zone__over{
+.drop-zone--over{
     border: 4px solid #009578
 }
 
-.drop-zone__input {
+.drop-zone--input {
     display: none;
 }
 
-.drop-zone__thumb{
+.drop-zone--thumb{
     width: 100%;
     height: 100%;
     overflow: hidden;
@@ -32,7 +32,7 @@
     position: relative;
 }
 
-.drop-zone__thumb::after {
+.drop-zone--thumb::after {
     content: attr(data-label);
     position: absolute;
     bottom: 0;
